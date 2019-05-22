@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="common_loading">加载中…</string>
+    <string name="common_no_data">暂无数据</string>
+    <string name="common_network_failure">当前网络不通畅，请稍后再试</string>
+    <string name="common_load_failure">获取数据失败\n请检查下网络是否通畅</string>
+    <string name="common_search">搜索</string>
+    <string name="common_confirm">确定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_reset">重置</string>
+    <string name="common_finish">完成</string>
+    <string name="common_submit">提交</string>
+    <string name="common_send">发送</string>
+    <string name="common_delete">删除</string>
+
+    <string name="common_permission_no_granted">您未允许智安小区获取%s权限，您可在系统设置中开启</string>
+    <string name="common_permission_external_storage">存储</string>
+    <string name="common_permission_location">定位</string>
+    <string name="common_permission_camera">相机</string>
+    <string name="common_permission_phone_state">手机状态</string>
+    <string name="common_permission_record_audio">录音</string>
+
+</resources>

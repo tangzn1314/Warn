@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="login_font_account">#FFDCAB86</color>
+    <color name="login_login_bg">#FF42AAC7</color>
+    <color name="login_login_et_bg">#FFDCAB86</color>
+    <color name="login_login_btn_normal">#FFC37171</color>
+    <color name="login_login_btn_pressed">#DFC37171</color>
+
+</resources>

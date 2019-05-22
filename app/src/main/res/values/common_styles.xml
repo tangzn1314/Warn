@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="PrivateResource">
+
+    <!-- 背景设为透明全屏，用于启动和登录页面-->
+    <style name="AppTheme.TranslateFullTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/common_background_activity</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationStyle</item>
+        <!-- Remove shadow below action bar Android < 5.0 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:alertDialogTheme">@style/MyThemeHoloLightDialogAlert</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:progressBarStyle">@android:style/Widget.Holo.Light.ProgressBar</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewStyle</item>
+
+
+        <item name="listPopupWindowStyle">@style/ListPopupWindowStyle</item>
+        <!-- 去掉按钮的阴影效果-->
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <!--<item name="actionBarSize">48dp</item>-->
+        <item name="alertDialogTheme">@style/MyThemeLightDialogAlert</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="actionMenuTextColor">@color/common_white</item>
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/common_color_primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/common_color_primary_dark</item>
+        <item name="colorAccent">@color/common_color_primary</item>
+        <item name="color">@color/common_white</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="autoCompleteTextViewStyle">@style/AutoCompleteTextViewStyle</item>
+    </style>
+
+    <style name="ListPopupWindowStyle">
+        <item name="android:popupElevation">0dp</item>
+        <item name="android:popupBackground">@color/common_white</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!--ToolBar上的Title颜色-->
+        <item name="android:textColorPrimary">@color/common_font_white</item>
+    </style>
+
+    <style name="ToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar" tools:ignore="NewApi">
+        <!--Toolbar包含导航与开始(左边)的间隔，默认为72dp(@dimen/abc_action_bar_content_inset_with_nav)-->
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="android:contentInsetStartWithNavigation">0dp</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:textColorHighlight">@color/common_font_highlighted</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="ActivityAnimationStyle" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/common_activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/common_activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/common_activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/common_activity_close_exit</item>
+    </style>
+
+    <style name="MyThemeHoloLightDialogAlert" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:windowTitleStyle">@style/MyDialogWindowTitleHoloLight</item>
+    </style>
+
+    <style name="MyDialogWindowTitleHoloLight">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearanceHoloLightDialogWindowTitle</item>
+    </style>
+
+    <style name="TextAppearanceHoloLightDialogWindowTitle" parent="@android:style/TextAppearance.Holo">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/common_color_primary</item>
+    </style>
+
+    <style name="MyThemeLightDialogAlert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonBarButtonStyle">@style/MyButtonBarButtonStyle</item>
+    </style>
+
+    <style name="MyButtonBarButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/common_color_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:minWidth">88dp</item>
+    </style>
+
+    <style name="AutoCompleteTextViewStyle" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:background">@null</item>
+        <item name="android:textColorHighlight">@color/common_font_highlighted</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <style name="DialogBottomAnim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/common_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/common_push_bottom_out</item>
+    </style>
+
+    <style name="MyTabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="android:background">@android:color/white</item>
+        <item name="tabPaddingStart">3dp</item>
+        <item name="tabPaddingEnd">3dp</item>
+        <item name="tabBackground">@null</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabIndicatorColor">@color/common_color_primary</item>
+        <item name="tabSelectedTextColor">@color/common_color_primary</item>
+        <item name="tabTextAppearance">@style/TabLayoutTabTextAppearance</item>
+    </style>
+
+    <style name="TabLayoutTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/common_font_size_default</item>
+        <item name="android:textColor">@color/common_font_gray_6</item>
+        <!--<item name="textAllCaps">true</item>-->
+    </style>
+
+    <style name="SwitchTheme">
+        <!--<item name="colorControlActivated">#FF6ECC91</item>-->
+        <item name="colorControlActivated">@color/common_color_primary</item>
+        <item name="colorSwitchThumbNormal">#FFF1F1F1</item>
+        <item name="android:colorForeground">#FF2F2F2F</item>
+    </style>
+
+    <style name="DividerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_divider_height</item>
+        <item name="android:background">@color/common_divider</item>
+    </style>
+
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <item name="android:backgroundDimEnabled">true</item><!--半透明-->
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--设置动画，在这里使用让它继承系统的Animation.Dialog-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+    <style name="ListViewStyle" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:divider">@color/common_divider</item>
+        <item name="android:dividerHeight">@dimen/common_divider_height</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:footerDividersEnabled">false</item>
+    </style>
+
+    <style name="ListViewStyle.DivideLarge" parent="ListViewStyle">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">10dp</item>
+    </style>
+
+    <style name="ListViewStyle.NoDivide" parent="ListViewStyle">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <style name="ScrollViewStyle" parent="@android:style/Widget.ScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+
+</resources>

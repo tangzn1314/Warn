@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="login_account">账号</string>
+    <string name="login_password">密码</string>
+    <string name="login_login">登录</string>
+
+
+    <string name="login_hint_input_account">请输入账号</string>
+    <string name="login_hint_input_password">请输入密码</string>
+
+    <string name="login_error_invalid_password">密码位数不够</string>
+    <string name="login_error_field_required">这是必填项噢</string>
+
+    <string name="login_toast_empty_account">账号不能为空</string>
+    <string name="login_toast_empty_password">密码不能为空</string>
+    <string name="login_toast_password_length_not_enough">密码位数不够</string>
+</resources>

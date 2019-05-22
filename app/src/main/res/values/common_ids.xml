@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="rv_list" type="id"/>
+    <item name="gv_grid" type="id"/>
+    <item name="lv_list" type="id"/>
+    <item name="wv" type="id"/>
+    <item name="sc" type="id"/>
+
+    <item name="refresh_layout" type="id"/>
+
+    <item name="vs_empty_view" type="id"/>
+    <item name="vs_error_view" type="id"/>
+
+</resources>

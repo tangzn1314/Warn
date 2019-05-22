@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_color_primary">#FFFF8665</color>
+    <color name="common_color_primary_dark">#FFFF8665</color>
+
+    <color name="common_transparent">#00000000</color>
+    <color name="common_white">#FFFFFFFF</color>
+
+    <color name="common_divider">#FFEEEEEE</color>
+    <color name="common_divider_2">#FFCCCCCC</color>
+    <item name="common_line_blue" type="drawable">#FFFF8665</item>
+
+    <color name="common_black_alpha_05">#0D000000</color>
+    <color name="common_black_alpha_08">#15000000</color>
+    <color name="common_black_alpha_10">#1A000000</color>
+    <color name="common_black_alpha_15">#26000000</color>
+    <color name="common_black_alpha_25">#40000000</color>
+    <color name="common_black_alpha_50">#80000000</color>
+    <color name="common_black_alpha_55">#8C000000</color>
+    <color name="common_black_alpha_60">#99000000</color>
+    <color name="common_black_alpha_65">#A6000000</color>
+    <color name="common_black_alpha_70">#B3000000</color>
+    <color name="common_black_alpha_75">#BF000000</color>
+    <color name="common_black_alpha_80">#CC000000</color>
+    <color name="common_black_alpha_85">#D9000000</color>
+    <color name="common_black_alpha_90">#E6000000</color>
+    <color name="common_black_alpha_95">#F2000000</color>
+    <color name="common_black">#FF000000</color>
+
+
+    <color name="common_font_highlighted">#6603A9F4</color>
+    <color name="common_font_white">#FFFFFFFF</color>
+    <color name="common_font_white_disable">#7FFFFFFF</color>
+    <color name="common_font_gray">#FF999999</color>
+    <color name="common_font_gray_6">#FF666666</color>
+    <color name="common_font_gray_c">#FFCCCCCC</color>
+    <color name="common_font_gray_d5">#FFD5D5D5</color>
+    <color name="common_font_gray_a">#FFAAAAAA</color>
+    <color name="common_font_gray_3">#FF333333</color>
+    <color name="common_font_blue">#FF5684F6</color>
+    <color name="common_font_black">#FF000000</color>
+    <color name="common_font_black_1">#FF111111</color>
+    <color name="common_font_black_2">#FF222222</color>
+    <color name="common_font_red">#FFFF0000</color>
+    <color name="common_font_E0">#FFE0E0E0</color>
+    <color name="common_font_95">#FF959595</color>
+
+
+    <color name="common_item_btn_gray_color_focus">#FFE7E7E7</color>
+    <color name="common_tab_layout">#FFFF8665</color>
+
+    <color name="common_background_toast">#C0000000</color>
+    <color name="common_background_activity">#FFF9F9F9</color>
+    <color name="common_background_f2">#FFF2F2F2</color>
+    <color name="common_background_fd">#FFFDFDFD</color>
+    <color name="common_background_ed">#FFEDEDED</color>
+    <color name="common_background_f5">#FFF5F5F5</color>
+    <color name="common_background_f8">#FFF8F8F8</color>
+    <color name="common_background_df">#FFDFDFDF</color>
+
+    <color name="common_btn_bg_gray">#FF979797</color>
+
+</resources>
